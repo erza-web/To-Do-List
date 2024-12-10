@@ -1,0 +1,73 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+body { 
+    font-family: 'Arial', sans-serif; 
+    background: linear-gradient(135deg,#ff7e5f,#1707ed);
+    color: #fff; 
+    text-align: center; 
+    overflow: auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+    flex-direction: column; 
+} 
+.contenu { 
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 40px; 
+    border-radius: 15px; 
+    width: 70%; 
+    max-width: 900px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+    margin-top: 40px; 
+    text-align: left; 
+} 
+h1 { 
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: #3e59e1; 
+} 
+h2 { 
+    font-size: 1.8rem; 
+    margin-bottom: 15px; 
+    color: #df0909; 
+} 
+p, ul { 
+    font-size: 1rem; 
+    line-height: 1.6; 
+    color: #ccc; 
+}
+ul { 
+    list-style-type: none; 
+} 
+ul li { 
+    margin: 10px 0; 
+    text-align: left; 
+} 
+code { 
+    background-color: #333; 
+    padding: 2px 5px; 
+    border-radius: 5px; 
+} 
+.retour { 
+    margin-top: 20px; 
+} 
+.retour-bouton { 
+    display: inline-block; 
+    background-color: #050505; 
+    color: white; 
+    padding: 12px 20px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-size: 1.2rem; 
+    transition: background-color 0.3s ease; 
+} 
+.retour-bouton:hover { 
+    background-color: #45a049;
+    transform: scale(1.05); 
+}

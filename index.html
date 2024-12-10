@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenu">
+        <h1>Ma liste de tâches</h1>
+        <div class="tache">
+            <input type="text" id="tache" placeholder="Nouvelle tâche" maxlength="100">
+            <button type="submit" id="ajout">Ajouter</button>
+        </div>
+        <ul id="liste"></ul>
+        <div class="pied-page">
+            <p id="compteur_tache">Total: 0 <br>Terminées: 0 </p>
+            <button type="submit" id="boutonToutSupprimer"> Tout supprimer</button>
+        </div>
+    </div>
+    <div class="explication">
+        <form action="read_me.html" method="get">
+            <button>Appuyer ici pour avoir une explication sur le fonctionnement du programme</button>
+        </form>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
